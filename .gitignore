@@ -1,0 +1,11 @@
+*.iml
+node_modules/
+tmp/
+temp/
+*.log
+.DS_Store
+npm-debug.log
+*.idea/
+coverage
+test/docsite-project
+package-lock.json
