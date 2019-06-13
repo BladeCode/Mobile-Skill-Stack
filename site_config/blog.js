@@ -1,6 +1,6 @@
 export default {
   'en-us': {
-    barText: 'Blog',
+    barText: 'Milestones',
     postsTitle: 'All posts',
     list: [
       {

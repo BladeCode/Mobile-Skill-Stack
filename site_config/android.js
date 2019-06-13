@@ -5,12 +5,16 @@ export default {
         title: 'header title',
         children: [
           {
+            title: 'Index',
+            link: '/en-us/docs/android/android.html',
+          },
+          {
             title: 'demo1',
-            link: '/en-us/docs/demo1.html',
+            link: '/en-us/docs/android/content/demo1.html',
           },
           {
             title: 'demo2',
-            link: '/en-us/docs/demo2.html',
+            link: '/en-us/docs/android/content/demo2.html',
           },
           {
             title: 'dir',
@@ -18,7 +22,7 @@ export default {
             children: [
               {
                 title: 'demo3',
-                link: '/en-us/docs/dir/demo3.html',
+                link: '/en-us/docs/android/content/dir/demo3.html',
               },
             ],
           },
@@ -33,12 +37,16 @@ export default {
         title: '大标题',
         children: [
           {
+            title: '索引',
+            link: '/zh-cn/docs/android/android.html',
+          },
+          {
             title: '示例1',
-            link: '/zh-cn/docs/demo1.html',
+            link: '/zh-cn/docs/android/content/demo1.html',
           },
           {
             title: '示例2',
-            link: '/zh-cn/docs/demo2.html',
+            link: '/zh-cn/docs/android/content/demo2.html',
           },
           {
             title: '目录',
@@ -46,7 +54,7 @@ export default {
             children: [
               {
                 title: '示例3',
-                link: '/zh-cn/docs/dir/demo3.html',
+                link: '/zh-cn/docs/android/content/dir/demo3.html',
               },
             ],
           },

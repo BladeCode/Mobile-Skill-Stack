@@ -1,35 +1,45 @@
 // 全局的一些配置
 export default {
-  rootPath: '/product', // 发布到服务器的根目录，需以/开头但不能有尾/，如果只有/，请填写空字符串
-  port: 8060, // 本地开发服务器的启动端口
-  domain: 'android.incoder.org', // 站点部署域名，无需协议和path等
+  rootPath: '', // 发布到服务器的根目录，需以/开头但不能有尾/，如果只有/，请填写空字符串
+  port: 8080, // 本地开发服务器的启动端口
+  domain: 'mobile.incoder.org', // 站点部署域名，无需协议和path等
   // defaultSearch: 'google', // 默认搜索引擎，baidu或者google
   defaultLanguage: 'en-us',
   'en-us': {
     pageMenu: [
       {
         key: 'home', // 用作顶部菜单的选中
-        text: 'HOME',
+        text: 'Home',
         link: '/en-us/index.html',
       },
       {
-        key: 'docs',
+        key: 'android',
         text: 'Android',
-        link: '/en-us/docs/demo1.html',
+        link: '/en-us/docs/android/android.html',
       },
       {
-        key: 'blog',
+        key: 'ios',
+        text: 'iOS',
+        link: '/en-us/docs/ios/ios.html',
+      },
+      {
+        key: 'flutter',
         text: 'Flutter',
+        link: '/en-us/docs/flutter/flutter.html',
+      },
+      {
+        key: 'reactnative',
+        text: 'ReactNative',
+        link: '/en-us/docs/reactnative/reactnative.html',
+      },
+      {
+        key: 'milestones',
+        text: 'Milestones',
         link: '/en-us/blog/index.html',
       },
       {
         key: 'community',
-        text: 'React Native',
-        link: '/en-us/community/index.html',
-      },
-      {
-        key: 'community',
-        text: 'IOT',
+        text: 'About',
         link: '/en-us/community/index.html',
       },
     ],
@@ -38,63 +48,77 @@ export default {
       content: 'the disclaimer content',
     },
     documentation: {
-      title: 'Documentation',
+      title: 'Official link',
       list: [
         {
-          text: 'Overview',
-          link: '/en-us/docs/demo1.html',
+          text: 'Android',
+          link: 'https://www.android.com',
         },
         {
-          text: 'Quick start',
-          link: '/en-us/docs/demo2.html',
+          text: 'iOS',
+          link: 'https://developer.apple.com',
         },
         {
-          text: 'Developer guide',
-          link: '/en-us/docs/dir/demo3.html',
+          text: 'Flutter',
+          link: 'https://flutter.dev',
+        },
+        {
+          text: 'ReactNative',
+          link: 'https://facebook.github.io/react-native',
         },
       ],
     },
     resources: {
-      title: 'Resources',
+      title: 'Link',
       list: [
         {
-          text: 'Blog',
-          link: '/en-us/blog/index.html',
+          text: 'BladeCode',
+          link: 'https://incoder.org',
         },
         {
-          text: 'Community',
-          link: '/en-us/community/index.html',
+          text: 'RootCluster',
+          link: 'https://rootcluster.github.io',
         },
       ],
     },
-    copyright: 'Copyright © 2019 ',
+    copyright: 'Copyright © 2019 Jerry xu',
   },
   'zh-cn': {
     pageMenu: [
       {
         key: 'home',
-        text: '首页',
+        text: 'Home',
         link: '/zh-cn/index.html',
       },
       {
-        key: 'docs',
-        text: '文档',
-        link: '/zh-cn/docs/demo1.html',
+        key: 'android',
+        text: 'Android',
+        link: '/zh-cn/docs/android/android.html',
       },
       {
-        key: 'blog',
-        text: '博客',
+        key: 'ios',
+        text: 'iOS',
+        link: '/zh-cn/docs/ios/ios.html',
+      },
+      {
+        key: 'flutter',
+        text: 'Flutter',
+        link: '/zh-cn/docs/flutter/flutter.html',
+      },
+      {
+        key: 'reactnative',
+        text: 'ReactNative',
+        link: '/zh-cn/docs/reactnative/reactnative.html',
+      },
+      {
+        key: 'milestones',
+        text: 'Milestones',
         link: '/zh-cn/blog/index.html',
       },
       {
         key: 'community',
-        text: '社区',
+        text: 'About',
         link: '/zh-cn/community/index.html',
-      },
-      {
-        key: 'community',
-        text: 'IOT',
-        link: '/en-us/community/index.html',
       },
     ],
     disclaimer: {
@@ -102,35 +126,39 @@ export default {
       content: '免责声明的具体内容',
     },
     documentation: {
-      title: '文档',
+      title: '官方链接',
       list: [
         {
-          text: '概览',
-          link: '/zh-cn/docs/demo1.html',
+          text: 'Android',
+          link: 'https://developers.android.google.cn',
         },
         {
-          text: '快速开始',
-          link: '/zh-cn/docs/demo2.html',
+          text: 'iOS',
+          link: 'https://developer.apple.com',
         },
         {
-          text: '开发者指南',
-          link: '/zh-cn/docs/dir/demo3.html',
+          text: 'Flutter',
+          link: 'https://flutter.dev',
+        },
+        {
+          text: 'ReactNative',
+          link: 'https://facebook.github.io/react-native',
         },
       ],
     },
     resources: {
-      title: '资源',
+      title: '链接',
       list: [
         {
-          text: '博客',
-          link: '/zh-cn/blog/index.html',
+          text: 'BladeCode',
+          link: 'https://incoder.org',
         },
         {
-          text: '社区',
-          link: '/zh-cn/community/index.html',
+          text: 'RootCluster',
+          link: 'https://rootcluster.github.io',
         },
       ],
     },
-    copyright: 'Copyright © 2019 ',
+    copyright: 'Copyright © 2019 Jerry xu',
   },
 };

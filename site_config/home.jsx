@@ -3,12 +3,12 @@ import React from 'react';
 export default {
   'zh-cn': {
     brand: {
-      brandName: '开源产品品牌名称',
+      brandName: '移动开发技能栈',
       briefIntroduction: '关于开源产品的简单介绍',
       buttons: [
         {
           text: '立即开始',
-          link: '/zh-cn/docs/demo1.html',
+          link: '/zh-cn/docs/android/demo1.html',
           type: 'primary',
         },
         {
@@ -64,7 +64,7 @@ export default {
       img: '/img/quick_start.png',
       button: {
         text: '阅读更多',
-        link: '/zh-cn/docs/demo1.html',
+        link: '/zh-cn/docs/android/demo1.html',
       },
     },
     users: {
@@ -92,12 +92,12 @@ export default {
   },
   'en-us': {
     brand: {
-      brandName: 'brandName',
+      brandName: 'Mobile-Skill-Stack',
       briefIntroduction: 'some description of product',
       buttons: [
         {
           text: 'Quick Start',
-          link: '/en-us/docs/demo1.html',
+          link: '/en-us/docs/android/demo1.html',
           type: 'primary',
         },
         {
@@ -153,11 +153,11 @@ export default {
       img: '/img/quick_start.png',
       button: {
         text: 'READ MORE',
-        link: '/en-us/docs/demo1.html',
+        link: '/en-us/docs/android/demo1.html',
       },
     },
     users: {
-      title: 'users',
+      title: 'Contributors',
       desc: <span>some description</span>,
       list: [
         '/img/users_alibaba.png',

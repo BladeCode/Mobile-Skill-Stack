@@ -8,7 +8,10 @@ import Header from '../../components/header';
 import Bar from '../../components/bar';
 import Sidemenu from '../../components/sidemenu';
 import Footer from '../../components/footer';
-import docsConfig from '../../../site_config/docs';
+import androidConfig from '../../../site_config/android';
+import iosConfig from '../../../site_config/ios';
+import flutterConfig from '../../../site_config/flutter';
+import reactnativeConfig from '../../../site_config/reactnative';
 import './index.scss';
 
 // 锚点正则
@@ -85,9 +88,14 @@ class Documentation extends Language {
     });
   }
 
+  // 不同侧边栏处理
   render() {
     const language = this.getLanguage();
-    const dataSource = docsConfig[language];
+    const dataSource = androidConfig[language];
+    const isAndroid = window.location.pathname.split('/').pop().lastIndexOf('_android.html') !== -1;
+    const isiOS = window.location.pathname.split('/').pop().lastIndexOf('_ios.html') !== -1;
+    const isFlutter = window.location.pathname.split('/').pop().lastIndexOf('_flutter.html') !== -1;
+    const isReactnative = window.location.pathname.split('/').pop().lastIndexOf('_reactnative.html') !== -1;
     const __html = this.props.__html || this.state.__html;
     return (
       <div className="documentation-page">

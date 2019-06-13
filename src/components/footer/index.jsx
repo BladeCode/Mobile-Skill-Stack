@@ -28,7 +28,7 @@ class Footer extends React.Component {
                 <dt>{dataSource.documentation.title}</dt>
                 {
                   dataSource.documentation.list.map((d, i) => (
-                    <dd key={i}><a href={getLink(d.link)} target={d.target || '_self'}>{d.text}</a></dd>
+                    <dd key={i}><a href={getLink(d.link)} target={d.target || '_blank'}>{d.text}</a></dd>
                   ))
                 }
               </dl>
@@ -38,7 +38,7 @@ class Footer extends React.Component {
             <dt>{dataSource.resources.title}</dt>
             {
               dataSource.resources.list.map((d, i) => (
-                <dd key={i}><a href={getLink(d.link)} target={d.target || '_self'}>{d.text}</a></dd>
+                <dd key={i}><a href={getLink(d.link)} target={d.target || '_blank'}>{d.text}</a></dd>
               ))
             }
             </dl>
