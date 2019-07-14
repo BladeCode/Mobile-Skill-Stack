@@ -1,8 +1,12 @@
 .DS_Store
-build/
-md-json/
+
 node_modules/
-public/
-# 忽略根目录 en-us，zh-cn文件夹
-/en-us/
-/zh-cn/
+
+lib/core/metadata.js
+lib/core/MetadataBlog.js
+
+website/translated_docs
+website/build/
+website/yarn.lock
+website/node_modules/
+website/i18n/*

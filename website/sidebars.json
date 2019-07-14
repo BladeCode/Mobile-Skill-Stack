@@ -1,0 +1,26 @@
+{
+  "android": {
+    "RoadMap": [
+      "android/roadmap"
+    ],
+    "Retrofit": [
+      "android/retrofit"
+    ],
+    "OkHttp": ["android/okhttp"]
+  },
+  "ios": {
+    "RoadMap": [
+      "ios/roadmap"
+    ]
+  },
+  "flutter": {
+    "RoadMap": [
+      "flutter/roadmap"
+    ]
+  },
+  "reactnative": {
+    "RoadMap": [
+      "rn/roadmap"
+    ]
+  }
+}
