@@ -58,8 +58,8 @@ const siteConfig = {
   /* Colors for website */
   colors: {
     primaryColor: '#282c34',
-    secondaryColor: '#05A5D1',
-    // tintColor: '#05a5d1',
+    secondaryColor: '#282c34',
+    // tintColor: '#282c34',
     backgroundColor: '#f5fcff',
   },
 
@@ -87,16 +87,11 @@ const siteConfig = {
   enableUpdateTime: true,
   enableUpdateBy: true,
   docsSideNavCollapsible: true,
+  gaTrackingId: 'UA-100235665-1',
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/undraw_online.svg',
+  ogImage: 'img/favicon.svg',
   twitterImage: 'img/undraw_tweetstorm.svg',
-
-  // Show documentation's last contributor's name.
-  // enableUpdateBy: true,
-
-  // Show documentation's last update time.
-  // enableUpdateTime: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...

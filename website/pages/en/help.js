@@ -20,20 +20,20 @@ function Help(props) {
   const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
 
   const supportLinks = [
+    // {
+    //   content: `Learn more using the [documentation on this site.](${docUrl(
+    //     'doc1.html',
+    //   )})`,
+    //   title: 'Browse Docs',
+    // },
     {
-      content: `Learn more using the [documentation on this site.](${docUrl(
-        'doc1.html',
-      )})`,
-      title: 'Browse Docs',
+      content: 'How to participate in the [contribution](https://github.com/BladeCode/Mobile-Skill-Stack/blob/master/README.md)',
+      title: 'Join the contributing',
     },
-    {
-      content: 'Ask questions about the documentation and project',
-      title: 'Join the community',
-    },
-    {
-      content: "Find out what's new with this project",
-      title: 'Stay up to date',
-    },
+    // {
+    //   content: "Find out what's new with this project",
+    //   title: 'Stay up to date',
+    // },
   ];
 
   return (

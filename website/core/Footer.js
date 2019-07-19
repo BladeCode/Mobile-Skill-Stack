@@ -56,7 +56,7 @@ class Footer extends React.Component {
               User Showcase
             </a> */}
             <a
-              href="https://www.android.com"
+              href="https://developer.android.com"
               target="_blank"
               rel="noreferrer noopener">
               Android
@@ -82,16 +82,6 @@ class Footer extends React.Component {
             <h5>More</h5>
             <a href="https://incoder.org" target="_blank">Blog</a>
             <a href="https://github.com/BladeCode" target="_blank">GitHub</a>
-            <a
-              className="github-button"
-              href={this.props.config.repoUrl}
-              data-icon="octicon-star"
-              data-count-href="/BladeCode/Mobile-Skill-Stack/stargazers"
-              data-show-count="true"
-              data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub">
-              Star
-            </a>
           </div>
         </section>
         <section className="copyright">
