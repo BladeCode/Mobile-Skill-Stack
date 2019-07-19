@@ -160,7 +160,7 @@ class Index extends React.Component {
           {
             content:
               'This is another description of about this project',
-            image: `${baseUrl}img/introduce.svg`,
+            image: `${baseUrl}img/introduce.png`,
             imageAlign: 'right',
             title: 'Description',
           },
