@@ -3,10 +3,18 @@
     "RoadMap": [
       "android/roadmap"
     ],
+    "Notification": [
+      "android/notification",
+      "android/notification-create",
+      "android/notification-adaptation",
+      "android/notification-encapsulation"
+    ],
     "Retrofit": [
       "android/retrofit"
     ],
-    "OkHttp": ["android/okhttp"]
+    "OkHttp": [
+      "android/okhttp"
+    ]
   },
   "ios": {
     "RoadMap": [
