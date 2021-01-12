@@ -1,0 +1,185 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>通知 · Mobile-Skill-Stack</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## 概述"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="通知 · Mobile-Skill-Stack"/><meta property="og:type" content="website"/><meta property="og:url" content="https://mobile.incoder.org/"/><meta property="og:description" content="## 概述"/><meta property="og:image" content="https://mobile.incoder.org/img/favicon.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://mobile.incoder.org/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"/><link rel="alternate" type="application/atom+xml" href="https://mobile.incoder.org/blog/atom.xml" title="Mobile-Skill-Stack Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://mobile.incoder.org/blog/feed.xml" title="Mobile-Skill-Stack Blog RSS Feed"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-100235665-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100}
+          )
+        });
+        </script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.svg" alt="Mobile-Skill-Stack"/><h2 class="headerTitleWithLogo">Mobile-Skill-Stack</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/android/roadmap" target="_self">Android</a></li><li class=""><a href="/docs/ios/roadmap" target="_self">iOS</a></li><li class=""><a href="/docs/flutter/roadmap" target="_self">Flutter</a></li><li class=""><a href="/docs/rn/roadmap" target="_self">ReactNative</a></li><li class=""><a href="/help" target="_self">Help</a></li><li class=""><a href="/blog/" target="_self">Milestones</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Notification</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">RoadMap<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/android/roadmap">Android</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Notification<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem navListItemActive"><a class="navItem" href="/docs/android/notification">通知</a></li><li class="navListItem"><a class="navItem" href="/docs/android/notification-create">通知创建</a></li><li class="navListItem"><a class="navItem" href="/docs/android/notification-adaptation">通知适配</a></li><li class="navListItem"><a class="navItem" href="/docs/android/notification-encapsulation">通知封装</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Retrofit<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/android/retrofit">Retrofit</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">OkHttp<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/android/okhttp">OkHttp</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">通知</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="概述"></a><a href="#概述" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>概述</h2>
+<p>通知是指Android在应用的界面之外显示的消息，旨在向用户提供提醒、来自他人的通信信息或应用中的其他实时信息。用户可以点按通知来打开应用，也可以直接在通知中执行某项操作，还可以下拉通知栏查看具体的通知扼要内容。</p>
+<p><img src="../assets/android/notification-summary.png" alt=""></p>
+<h2><a class="anchor" aria-hidden="true" id="样式"></a><a href="#样式" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>样式</h2>
+<p>通知在不同的位置有着不同的显示样式，主要表现位状态栏显示通知图标，通知栏中显示比较详细的条目，应用图标上的标志，锁屏界面显示的通知等样式</p>
+<p><img src="../assets/android/notification-cat.jpg" alt=""></p>
+<h2><a class="anchor" aria-hidden="true" id="组成"></a><a href="#组成" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>组成</h2>
+<p><img src="https://developer.android.google.cn/images/ui/notifications/notification-callouts_2x.png" alt="notification-callouts"></p>
+<ol>
+<li>小图标：<strong>必须提供</strong>，通过<code>setSmallIcon()</code>进行设置</li>
+<li>应用图标：由系统提供</li>
+<li>时间戳：由系统提供，但您可以通过<code>setWhen()</code>将其替换掉或者通过<code>setShowWhen(false)</code>将其隐藏</li>
+<li>大图标：<strong>可选内容</strong>（通常仅用于联系人照片，请勿将其用于应用图标），通过<code>setLargeIcon()</code>进行设置</li>
+<li>标题：<strong>可选内容</strong>，通过<code>setContentTitle()</code>进行设置</li>
+<li>文本：<strong>可选内容</strong>，通过<code>setContentText()</code>进行设置</li>
+</ol>
+<h2><a class="anchor" aria-hidden="true" id="操作"></a><a href="#操作" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>操作</h2>
+<h3><a class="anchor" aria-hidden="true" id="跳转"></a><a href="#跳转" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>跳转</h3>
+<p>点击通知栏中的内容，跳转到具体的页面，这已是一项被用户所接受的操作方式</p>
+<h3><a class="anchor" aria-hidden="true" id="展开"></a><a href="#展开" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>展开</h3>
+<p>默认情况下，通知的文字内容会被截断以放在一行。如果您需要长一些的通知，可以通过应用其他模板启用更大的展开式文本区域（可以使用图片、收件箱样式、聊天对话或媒体播放控件来创建符合业务场景的展开式通知）</p>
+<h3><a class="anchor" aria-hidden="true" id="自定义"></a><a href="#自定义" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>自定义</h3>
+<p>在实际场景中，我们需要根据需要自定义，比如：下载文件，我们应该在通知栏上，自定义暂停，删除等操作</p>
+<h2><a class="anchor" aria-hidden="true" id="其他"></a><a href="#其他" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>其他</h2>
+<h3><a class="anchor" aria-hidden="true" id="通知渠道"></a><a href="#通知渠道" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>通知渠道</h3>
+<p>从Android8.0（API 26）开始，<font color=#FF0000><strong>必须</strong></font>为所有通知分配渠道，否则通知将不会显示。</p>
+<ul>
+<li>通过将通知归类为不同的渠道，用户可以停用你应用的特定通知渠道（而非停用你的所有通知），还可以控制每个渠道的视觉和听觉选项，所有的操作都在Android系统设置中完成</li>
+<li>用户还可以长按通知以更改所关联渠道的行为</li>
+<li>渠道还可用于指定通知的重要程度等级，因此，发布到同一通知渠道的所有通知行为都相同</li>
+</ul>
+<p>在Android7.1（API 25）及更低版本的设备上，用户<font color=#FF0000><strong>仅</strong></font>可以按应用来管理通知（API &lt;= 25 设备上，每个应用其实<font color=#FF0000><strong>只</strong></font>有一个渠道）</p>
+<blockquote>
+<p>一个应用可以有多个通知渠道（每个渠道对应于该应用发出的每类通知）。应用还可以创建渠道来响应用户对应用做出的选择，比如：可以为用户在短信应用中创建的每个会话组设置不同的通知渠道</p>
+</blockquote>
+<h3><a class="anchor" aria-hidden="true" id="通知更新"></a><a href="#通知更新" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>通知更新</h3>
+<p>用户在你提供后续更新时不会遭遇多个通知或多余的通知轰炸，我们应该考虑更新现有通知（而不是发出新通知），或者考虑使用收件箱样式通知显示会话更新</p>
+<h3><a class="anchor" aria-hidden="true" id="通知分组"></a><a href="#通知分组" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>通知分组</h3>
+<p>在Android7.0及更高的设备上可以将孤立的通知分为一组。借助通知分组，你可以以一条摘要的形式在抽屉式通知栏中将多个通知收拢成一条通知消息</p>
+<h3><a class="anchor" aria-hidden="true" id="重要程度"></a><a href="#重要程度" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>重要程度</h3>
+<ul>
+<li>在Android8.0及<font color=#FF0000>更高</font>版本的设备上，通知的重要程度由通知发布到渠道的 <code>importance</code> 决定</li>
+<li>在Android7.1及<font color=#FF0000>更低</font>版本的设备上，每条通知的重要程度均有通知的 <code>priority</code> 决定</li>
+</ul>
+<p>重要程度等级如下所示：</p>
+<ul>
+<li>紧急：发出提示音，并以提醒式通知的形式显示</li>
+<li>高：发出提示音</li>
+<li>中：无提示音</li>
+<li>低：无提示音，且不会在状态栏中显示</li>
+</ul>
+<blockquote>
+<p>无论重要程度如何，所有通知都会在非干扰系统界面的位置显示，比如，显示在抽屉式通知栏中，以及在启动器图标上作为标志显示</p>
+</blockquote>
+<h3><a class="anchor" aria-hidden="true" id="勿扰模式"></a><a href="#勿扰模式" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>勿扰模式</h3>
+<p>从Android5.0（API 21）开始，用户可用启用勿扰模式，以关闭所有通知的提示音和振动。通知仍会在系统界面中照常显示，除非用户另有指定</p>
+<p>勿扰模式包含3种不同的级别：</p>
+<ul>
+<li>完全静音：阻止所有提示音和振动</li>
+<li>仅限闹钟：阻止所有提示音和振动，闹钟除外</li>
+<li>仅限优先事项：用户可以配置哪些系统级类别可以打扰他们（如仅限闹钟，提醒，活动，来电或短信等）。对于短信和来电，用户还可以选择根据发送者或来电者进行过滤</li>
+</ul>
+<p>在Android8.0（API 26）及更高版本的设备上，用户还可以通过按渠道替换勿扰模式来允许特定于应用的类别（又称渠道）显示通知。例如：付款类应用可能会有与取款和存款相关的通知渠道。用户便可以选择允许在优先模式下显示取款通知和/或存款通知。</p>
+<blockquote>
+<p>在Android7.1（API 25）及更低版本设备上，用户可以按照应用（而不是按渠道）允许显示通知</p>
+</blockquote>
+<h3><a class="anchor" aria-hidden="true" id="前台服务"></a><a href="#前台服务" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>前台服务</h3>
+<p>前台服务：一种长时间在后台运行且用户可察觉到的<code>Service</code>，如媒体播放器</p>
+<blockquote>
+<p>这种通知不能像关闭其他通知那样关闭通知，关闭时，必须停止运行服务或者将其从“前台”状态中移除</p>
+</blockquote>
+<h3><a class="anchor" aria-hidden="true" id="发布限制"></a><a href="#发布限制" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>发布限制</h3>
+<p>从Android8.1（API 27）开始，应用无法每秒发出一次以上的通知提示音。如果应用在一秒内发出来多条通知，这些通知都会按照预期显示，但是每秒种<font color=#FF0000><strong>只</strong></font>有第一条通知发出提示音</p>
+<p>不过，Android还对通知更新频率设定了限制。如果你过于频繁地发布有关某条通知的更新（不到一秒内发布了多个），系统<font color=#FF0000><strong>可能会放弃部分</strong></font>更新</p>
+<h2><a class="anchor" aria-hidden="true" id="变化"></a><a href="#变化" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>变化</h2>
+<h3><a class="anchor" aria-hidden="true" id="android41"></a><a href="#android41" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Android4.1</h3>
+<ul>
+<li>推出了展开式通知模板（称为通知样式），可以提供较大的通知内容区域来显示信息，用户可以通过单指向上/向下活动的手势展开通知</li>
+<li>支持以按钮的形式向通知添加其他操作</li>
+<li>允许用户在设置种按应用关闭通知</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="android50"></a><a href="#android50" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Android5.0</h3>
+<ul>
+<li>推出了锁定屏幕和提醒式通知</li>
+<li>用户现在可以将手机设为勿扰模式，并配置允许哪些通知在设备处于优先模式时打扰他们</li>
+<li>向API集添加了通知是否在锁定屏幕上显示的方法（<code>setVisibility()</code>），以及指定通知文本的“公开”版本的方法</li>
+<li>添加了<code>setPriority()</code>方法，告知系统通知的“干预性”（例如，将其设为“高”可使通知以提醒式通知的形式显示）</li>
+<li>向Android Wear（已更名为Wear OS）设备添加了通知堆栈支持。使用<code>setGroup()</code>将通知放入堆栈。注意，平板电量和手机尚不支持通知堆栈。通知堆栈在以后会称为组或集合</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="android70"></a><a href="#android70" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Android7.0</h3>
+<ul>
+<li>重新设置了通知模板的样式以强调主打图片和头像</li>
+<li>天记录三个通知模板
+<ul>
+<li>一个用于短信应用</li>
+<li>另外两个用于借助展开式选项和其他系统装饰来装饰自定义内容视图</li>
+</ul></li>
+<li>向手持设备（手机和平板电脑）添加了对通知组的支持。使用与Android5.0中推出的Wear OS通知堆栈相同的API</li>
+<li>用户可以使用内嵌回复功能直接在通知内进行回复（他们输入的文本将转发到通知的父级应用）</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="android80"></a><a href="#android80" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Android8.0</h3>
+<ul>
+<li>现在必须将各个通知放入特定渠道中</li>
+<li>现在，用户可以按渠道关闭通知，而非关闭来自某个应用的所有通知</li>
+<li>包含有效通知的应用将在主屏幕/启动器屏幕上相应应用图标的上方显示通知“标志”</li>
+<li>现在，用户可以以抽屉式通知栏中暂停某个通知。你可以为通知设置自动超时时间</li>
+<li>可以设置通知的背景色</li>
+<li>部分与通知行为相关的API从<code>Notification</code>移至了<code>NotificationChannel</code>，例如，在Android8.0集更高版本的设备中，使用<code>NotificationChannel.setImportance()</code>，而非<code>NotificationCompat.Builder.setPriority()</code></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="参考"></a><a href="#参考" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>参考</h2>
+<ul>
+<li><a href="https://developer.android.google.cn/guide/topics/ui/notifiers/notifications">Notifications</a></li>
+<li><a href="https://material.io/design/platform-guidance/android-notifications.html">通知设计指南</a></li>
+</ul>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 7/26/2019 by Jerry xu</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/android/roadmap"><span class="arrow-prev">← </span><span>Android</span></a><a class="docs-next button" href="/docs/android/notification-create"><span>通知创建</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#概述">概述</a></li><li><a href="#样式">样式</a></li><li><a href="#组成">组成</a></li><li><a href="#操作">操作</a><ul class="toc-headings"><li><a href="#跳转">跳转</a></li><li><a href="#展开">展开</a></li><li><a href="#自定义">自定义</a></li></ul></li><li><a href="#其他">其他</a><ul class="toc-headings"><li><a href="#通知渠道">通知渠道</a></li><li><a href="#通知更新">通知更新</a></li><li><a href="#通知分组">通知分组</a></li><li><a href="#重要程度">重要程度</a></li><li><a href="#勿扰模式">勿扰模式</a></li><li><a href="#前台服务">前台服务</a></li><li><a href="#发布限制">发布限制</a></li></ul></li><li><a href="#变化">变化</a><ul class="toc-headings"><li><a href="#android41">Android4.1</a></li><li><a href="#android50">Android5.0</a></li><li><a href="#android70">Android7.0</a></li><li><a href="#android80">Android8.0</a></li></ul></li><li><a href="#参考">参考</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/favicon.svg" alt="Mobile-Skill-Stack" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/android/roadmap.html">Android RoadMap</a><a href="/docs/en/ios/roadmap.html">iOS RoadMap</a><a href="/docs/en/flutter/roadmap.html">Flutter RoadMap</a><a href="/docs/en/rn/roadmap.html">ReactNative RoadMap</a></div><div><h5>Community</h5><a href="https://developer.android.com" target="_blank" rel="noreferrer noopener">Android</a><a href="https://developer.apple.com" target="_blank">iOS</a><a href="https://flutter.dev" target="_blank" rel="noreferrer noopener">Flutter</a><a href="https://facebook.github.io/react-native" target="_blank" rel="noreferrer noopener">ReactNative</a></div><div><h5>More</h5><a href="https://incoder.org" target="_blank">Blog</a><a href="https://github.com/BladeCode" target="_blank">GitHub</a></div></section><section class="copyright"><span>Copyright © 2021 Jerry xu.</span> Powered by <a href="https://docusaurus.io/">Docusaurus</a>.</section></footer></div></body></html>

@@ -5,14 +5,14 @@
         <link>https://mobile.incoder.org/blog</link>
         <description>The best place to stay up-to-date with the latest Mobile-Skill-Stack news and events.</description>
         <lastBuildDate>Sun, 14 Jul 2019 06:00:00 GMT</lastBuildDate>
-        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-        <generator>Feed for Node.js</generator>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
         <image>
             <title>Mobile-Skill-Stack Blog</title>
             <url>https://mobile.incoder.org/img/favicon.svg</url>
             <link>https://mobile.incoder.org/blog</link>
         </image>
-        <copyright>Copyright © 2019 Jerry xu.</copyright>
+        <copyright>Copyright © 2021 Jerry xu.</copyright>
         <item>
             <title><![CDATA[Version 1.0]]></title>
             <link>https://mobile.incoder.org/blog/2019/07/14/website-build.html</link>
