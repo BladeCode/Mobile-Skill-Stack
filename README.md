@@ -6,19 +6,19 @@
 ![dev branch parameter](https://github.com/BladeCode/Mobile-Skill-Stack/actions/workflows/deploy.yml/deploy.svg?branch=master)
 ![event parameter](https://github.com/BladeCode/Mobile-Skill-Stack/actions/workflows/deploy.yml/deploy.svg?event=pull_request)
 
-Mobile-Skill-Stack项目是总结移动端开发，知识路线，项目遇到的坑，开发技巧等一系列围绕移动端开发，不仅限于 Native 方式开发，同样也包含当前热门的 flutter 开发等，欢迎有同样想法的朋友一起来完善。
+Mobile-Skill-Stack 项目是总结移动端开发，知识路线，项目遇到的坑，开发技巧等一系列围绕移动端开发，不仅限于 Native 方式开发，同样也包含当前热门的 flutter 开发等，欢迎有同样想法的朋友一起来完善。
 
 ## Summary
 
 ```
 Mobile-Skill-Stack
-    ├── master      # 项目主分支，稳定网站源码，接收其他分支（非gh-pages）PR
-    ├── gh-pages    # 网站托管分支，由master分支通过脚本构建
+    ├── master      # 项目主分支，稳定网站源码，接收其他分支（非 gh-pages ）PR
+    ├── gh-pages    # 网站托管分支，由 master 分支通过脚本构建
     ├── dev         # 开发分支
     └── ……
 ```
 
-> master分支只接受其他分支（如：dev分支）merge
+> master 分支只接受其他分支（如：dev分支）merge
 
 ## Local Previwe
 
@@ -48,7 +48,7 @@ yarn start
 <footer>
 ```
 
-通过git commit 命令带出vim界面填写的最终结果应该类似如上这个结构，大致分为三个部分（使用空行分隔）：
+通过git commit 命令带出 vim 界面填写的最终结果应该类似如上这个结构，大致分为三个部分（使用空行分隔）：
 * 标题行：
 * 主题内容
 
