@@ -1,6 +1,0 @@
----
-id: notification-encapsulation
-title: 通知封装
----
-
- 通知栏封装
