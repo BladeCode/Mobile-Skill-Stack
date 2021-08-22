@@ -61,15 +61,15 @@ module.exports = {
           items: [
             {
               label: 'Android',
-              to: '/docs/android',
+              to: '/docs/android/roadmap',
             },
             {
               label: 'iOS',
-              to: '/docs/ios',
+              to: '/docs/ios/roadmap',
             },
             {
               label: 'Flutter',
-              to: '/docs/flutter',
+              to: '/docs/flutter/roadmap',
             },
           ],
         },
