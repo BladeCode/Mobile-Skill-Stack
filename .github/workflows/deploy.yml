@@ -2,9 +2,8 @@ name: documentation
 
 on:
   pull_request:
-    branches: https://github.com/BladeCode/Mobile-Skill-Stack/tree/master
-  push:
-    branches: https://github.com/BladeCode/Mobile-Skill-Stack/tree/gh-pages
+    branches: 
+      - master
 
 jobs:
   checks:
