@@ -2,7 +2,9 @@
     <a href="https://mobile.incoder.org">Mobile-Skill-Stack</a>
 </h2>
 
-[![Build Status](https://travis-ci.com/BladeCode/Mobile-Skill-Stack.svg?branch=master)](https://travis-ci.com/BladeCode/Mobile-Skill-Stack)
+![Website Status](https://github.com/BladeCode/Mobile-Skill-Stack/actions/workflows/deploy.yml/badge.svg)
+![dev branch parameter](https://github.com/BladeCode/Mobile-Skill-Stack/actions/workflows/deploy.yml/deploy.svg?branch=dev)
+![event parameter](https://github.com/BladeCode/Mobile-Skill-Stack/actions/workflows/deploy.yml/deploy.svg?event=pull_request)
 
 Mobile-Skill-Stack项目是总结移动端开发，知识路线，项目遇到的坑，开发技巧等一系列围绕移动端开发，不仅限于 Native 方式开发，同样也包含当前热门的 flutter 开发等，欢迎有同样想法的朋友一起来完善。
 
@@ -16,7 +18,18 @@ Mobile-Skill-Stack
     └── ……
 ```
 
->master分支只接受其他分支（如：dev分支）merge
+> master分支只接受其他分支（如：dev分支）merge
+
+## Local Previwe
+
+本地预览
+
+```console
+git clone https://github.com/BladeCode/Mobile-Skill-Stack.git -b dev
+cd Mobile-Skill-Stack/
+yarn install
+yarn start
+```
 
 ## Contributing
 
@@ -73,18 +86,17 @@ commit 的简短描述，不超过50个字符
 
 ### 页脚注释
 
-放breaking changes 或 closed issue
+放 breaking changes 或 closed issue
 
 ## Thanks
 
 1. [Node](https://nodejs.org)
 2. [Docusaurus](https://docusaurus.io)
-3. [Travis](https://travis-ci.com)
-4. [Git commit](https://incoder.org/2019/07/14/git-emoji)
+3. [Git commit](https://incoder.org/2019/07/14/git-emoji)
 
 ## LICENSE
 ```
-Copyright 2019 Jerry xu.
+Copyright 2021 Jerry xu.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
