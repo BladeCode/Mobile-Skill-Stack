@@ -3,7 +3,7 @@
 </h2>
 
 ![Website Status](https://github.com/BladeCode/Mobile-Skill-Stack/actions/workflows/deploy.yml/badge.svg)
-![dev branch parameter](https://github.com/BladeCode/Mobile-Skill-Stack/actions/workflows/deploy.yml/deploy.svg?branch=master)
+![master branch parameter](https://github.com/BladeCode/Mobile-Skill-Stack/actions/workflows/deploy.yml/deploy.svg?branch=master)
 ![event parameter](https://github.com/BladeCode/Mobile-Skill-Stack/actions/workflows/deploy.yml/deploy.svg?event=pull_request)
 
 Mobile-Skill-Stack 项目是总结移动端开发，知识路线，项目遇到的坑，开发技巧等一系列围绕移动端开发，不仅限于 Native 方式开发，同样也包含当前热门的 flutter 开发等，欢迎有同样想法的朋友一起来完善。
