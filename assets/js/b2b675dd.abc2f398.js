@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmobile_skill_stack=self.webpackChunkmobile_skill_stack||[]).push([[533],{8017:function(l){l.exports=JSON.parse('{"permalink":"/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

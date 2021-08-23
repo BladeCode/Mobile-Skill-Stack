@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmobile_skill_stack=self.webpackChunkmobile_skill_stack||[]).push([[601],{9663:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"version","name":"version","count":2,"permalink":"/blog/tags/version"}')}}]);

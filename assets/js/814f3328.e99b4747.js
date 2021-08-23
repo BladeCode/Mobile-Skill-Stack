@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmobile_skill_stack=self.webpackChunkmobile_skill_stack||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Version 2.0","permalink":"/blog/welcome"},{"title":"Version 1.0","permalink":"/blog/2019/07/14/website-build"}]}')}}]);

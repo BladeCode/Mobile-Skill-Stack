@@ -2,20 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mobile.incoder.org/blog</id>
     <title>Mobile-Skill-Stack Blog</title>
-    <updated>2019-07-14T06:00:00.000Z</updated>
+    <updated>2021-08-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mobile.incoder.org/blog"/>
-    <subtitle>The best place to stay up-to-date with the latest Mobile-Skill-Stack news and events.</subtitle>
-    <logo>https://mobile.incoder.org/img/favicon.svg</logo>
-    <rights>Copyright © 2021 Jerry xu.</rights>
+    <subtitle>Mobile-Skill-Stack Blog</subtitle>
+    <icon>https://mobile.incoder.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Version 2.0]]></title>
+        <id>welcome</id>
+        <link href="https://mobile.incoder.org/blog/welcome"/>
+        <updated>2021-08-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Docusaurus 官方已经发布 beta 很久了，Docusaurus 2.x 已趋于稳定，本次迁移 Mobile-Skill-Stack 站点项目到最新的 Docusaurus 版本，并重新开启移动端的知识点总结，本次更新]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Version 1.0]]></title>
-        <id>https://mobile.incoder.org/blog/2019/07/14/website-build.html</id>
-        <link href="https://mobile.incoder.org/blog/2019/07/14/website-build.html"/>
-        <updated>2019-07-14T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>使用<a href="https://docusaurus.io/">Docusaurus</a>构建Mobile-Skill-Stack静态网站进行归档，并使用<a href="https://travis-ci.com">Travis-CI</a> 自动构建</p> <ul> <li>确定 Android，iOS，Futter，ReactNative 分类</li> <li>引入 Android RoadMap &amp; iOS RoadMap</li> <li>对首页进行了简单的样式更改</li> </ul> ]]></summary>
-        <author>
-            <name>Jerry xu</name>
-        </author>
+        <id>Version 1.0</id>
+        <link href="https://mobile.incoder.org/blog/2019/07/14/website-build"/>
+        <updated>2019-07-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[使用 Docusaurus 构建 Mobile-Skill-Stack 静态网站进行归档，并使用 Travis-CI 自动构建]]></summary>
     </entry>
 </feed>
