@@ -5,6 +5,12 @@
  * and scoped locally.
  */
 
+.heroInner {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 0 20px;
+}
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -14,7 +20,7 @@
 
 @media screen and (max-width: 966px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 4rem;
   }
 }
 
@@ -24,6 +30,93 @@
   justify-content: center;
 }
 
-.home_title {
-  font-size: 5rem !important;
+.heroProjectTagline {
+  color: #fff;
+  font-size: 60px;
+  margin: 0;
+}
+
+.heroTitleTextHtml b {
+  /* color: var(--ifm-color-primary); */
+  color: #F9A826;
+}
+
+@keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    transform: scale(0.1) rotate(30deg);
+    transform-origin: center bottom;
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.heroLogo {
+  animation-duration: 2s;
+  animation-name: jackInTheBox;
+  float: right;
+  margin-top: 20px;
+  padding: 0 20px 20px;
+}
+
+.indexCtas {
+  --ifm-button-size-multiplier: 1.6;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.indexCtas a:last-of-type {
+  margin: 20px 36px;
+}
+
+.indexCtasGitHubButtonWrapper {
+  display: flex;
+}
+
+.indexCtasGitHubButton {
+  border: none;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .heroInner {
+    padding: 0;
+  }
+
+  .heroProjectTagline {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .heroLogo {
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .indexCtas {
+    justify-content: center;
+  }
+
+  .indexCtasGitHubButton {
+    display: none;
+  }
 }

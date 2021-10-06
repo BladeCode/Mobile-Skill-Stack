@@ -10,6 +10,7 @@ node_modules
 
 .eslintcache
 
+yarn.lock
 yarn-error.log
 build
 coverage
