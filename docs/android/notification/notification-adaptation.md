@@ -3,6 +3,7 @@ title: 通知适配
 ---
 
 适配
+
 ## 参考
 
 * [Android通知栏介绍与适配总结](https://iluhcm.com/2017/03/12/experience-of-adapting-to-android-notifications/)
