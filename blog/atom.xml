@@ -13,6 +13,10 @@
         <link href="https://mobile.incoder.org/blog/welcome"/>
         <updated>2021-08-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus 官方已经发布 beta 很久了，Docusaurus 2.x 已趋于稳定，本次迁移 Mobile-Skill-Stack 站点项目到最新的 Docusaurus 版本，并重新开启移动端的知识点总结，本次更新]]></summary>
+        <author>
+            <name>Jerry xu</name>
+            <uri>https://github.com/BladeCode</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Version 1.0]]></title>
@@ -20,5 +24,9 @@
         <link href="https://mobile.incoder.org/blog/2019/07/14/website-build"/>
         <updated>2019-07-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[使用 Docusaurus 构建 Mobile-Skill-Stack 静态网站进行归档，并使用 Travis-CI 自动构建]]></summary>
+        <author>
+            <name>Jerry xu</name>
+            <uri>https://github.com/BladeCode</uri>
+        </author>
     </entry>
 </feed>
